@@ -1,4 +1,7 @@
-﻿namespace Code4.Paragon.POS.Client.Admin
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Code4.Paragon.POS.Client.Admin
 {
     partial class frmLogin
     {

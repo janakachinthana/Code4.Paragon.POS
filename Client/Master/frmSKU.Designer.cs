@@ -1,4 +1,7 @@
-﻿namespace Code4.Paragon.POS.Client.Master
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Code4.Paragon.POS.Client.Master
 {
     partial class frmSKU
     {
@@ -33,11 +36,10 @@
             // frmSKU
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
             AutoSize = true;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1197, 501);
-            FormBorderStyle = FormBorderStyle.Fixed3D;
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "frmSKU";

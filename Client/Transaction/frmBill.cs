@@ -16,5 +16,6 @@ namespace Code4.Paragon.POS.Client.Transaction
         {
             InitializeComponent();
         }
+
     }
 }

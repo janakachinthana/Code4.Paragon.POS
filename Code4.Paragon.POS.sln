@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code4.Paragon.POS", "Code4.Paragon.POS.csproj", "{077ADE67-8645-400A-86FD-2BDAAEE232FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code4.Paragon.POS", "Code4.Paragon.POS.csproj", "{2A7894F7-C04D-41F3-96E1-A4C35D5664DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{077ADE67-8645-400A-86FD-2BDAAEE232FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{077ADE67-8645-400A-86FD-2BDAAEE232FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{077ADE67-8645-400A-86FD-2BDAAEE232FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{077ADE67-8645-400A-86FD-2BDAAEE232FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A7894F7-C04D-41F3-96E1-A4C35D5664DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A7894F7-C04D-41F3-96E1-A4C35D5664DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A7894F7-C04D-41F3-96E1-A4C35D5664DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A7894F7-C04D-41F3-96E1-A4C35D5664DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0DF94BBC-4979-4A39-958C-59AD1EEF7621}
+		SolutionGuid = {07A740EB-C322-49BA-BFD3-FCF506A51BFC}
 	EndGlobalSection
 EndGlobal

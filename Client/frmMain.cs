@@ -1,13 +1,17 @@
 using Code4.Paragon.POS.Client.Admin;
 using Code4.Paragon.POS.Client.Master;
 using Code4.Paragon.POS.Client.Transaction;
+using System;
 using System.Windows.Forms;
 
 namespace Code4.Paragon.POS
 {
     public partial class frmMain : Form
     {
-
+        frmLogin frmLogin = new frmLogin();
+        frmSKU frmSKUObj = new frmSKU();
+        frmBill frmBillObj = new frmBill();
+        frmUser frmUserObj = new frmUser();
         public frmMain()
         {
             InitializeComponent();
@@ -16,12 +20,14 @@ namespace Code4.Paragon.POS
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            frmBillObj.TopLevel = false;
+            pnlMain.Controls.Add(frmBillObj);
+            frmBillObj.Show();
         }
 
         private void Onclosed(object sender, FormClosedEventArgs e)
         {
-            frmLogin frmLogin = new frmLogin();
+
             this.Hide();
             frmLogin.Show();
         }
@@ -35,25 +41,32 @@ namespace Code4.Paragon.POS
 
         private void btnSKUManagement_Click(object sender, EventArgs e)
         {
-            frmSKU frmSKUObj = new frmSKU();
+            frmUserObj.Hide();
+            frmBillObj.Hide();
             frmSKUObj.TopLevel = false;
-            tabPage1.Controls.Add(frmSKUObj);
-            tabPage1.Text = frmSKUObj.Text;
-            tabControl1.Controls.Add(tabPage1);
-            frmSKUObj.BringToFront();
+            pnlMain.Controls.Add(frmSKUObj);
             frmSKUObj.Show();
         }
 
         private void btnBillManagement_Click(object sender, EventArgs e)
         {
-            frmBill frmBillObj = new frmBill();
+            frmSKUObj.Hide();
+            frmUserObj.Hide();
             frmBillObj.TopLevel = false;
-            tabPage1.Controls.Add(frmBillObj);
-            tabPage1.Text = frmBillObj.Text;
-            tabControl1.Controls.Add(tabPage1);
-            //frmBillObj.BringToFront();
+            pnlMain.Controls.Add(frmBillObj);
             frmBillObj.Show();
         }
 
+        private void btnUserManagement_Click(object sender, EventArgs e)
+        {
+            frmSKUObj.Hide();
+            frmBillObj.Hide();
+            frmUserObj.TopLevel = false;
+            pnlMain.Controls.Add(frmUserObj);
+            frmUserObj.Show();
+
+        }
+
+    
     }
 }

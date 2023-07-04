@@ -1,5 +1,0 @@
-E:\My Projects\Code4.Paragon.POS\bin\Release\net6.0-windows\app.publish\Code4.Paragon.POS.exe
-E:\My Projects\Code4.Paragon.POS\bin\Release\net6.0-windows\app.publish\Code4.Paragon.POS.dll
-E:\My Projects\Code4.Paragon.POS\bin\Release\net6.0-windows\app.publish\Code4.Paragon.POS.deps.json
-E:\My Projects\Code4.Paragon.POS\bin\Release\net6.0-windows\app.publish\Code4.Paragon.POS.runtimeconfig.json
-E:\My Projects\Code4.Paragon.POS\bin\Release\net6.0-windows\app.publish\Code4.Paragon.POS.pdb

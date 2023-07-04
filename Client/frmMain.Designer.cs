@@ -1,4 +1,7 @@
-﻿namespace Code4.Paragon.POS
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Code4.Paragon.POS
 {
     partial class frmMain
     {
@@ -30,95 +33,93 @@
         {
             System.ComponentModel.BackgroundWorker backgroundWorker1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            btnBillManagement = new ToolStripButton();
-            toolStripSeparator1 = new ToolStripSeparator();
-            btnSKUManagement = new ToolStripButton();
-            rbnMain = new ToolStrip();
-            tabPage1 = new TabPage();
-            tabControl1 = new TabControl();
+            this.btnBillManagement = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnSKUManagement = new System.Windows.Forms.ToolStripButton();
+            this.rbnMain = new System.Windows.Forms.ToolStrip();
+            this.btnUserManagement = new System.Windows.Forms.ToolStripButton();
+            this.pnlMain = new System.Windows.Forms.Panel();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            rbnMain.SuspendLayout();
-            tabControl1.SuspendLayout();
-            SuspendLayout();
+            this.rbnMain.SuspendLayout();
+            this.SuspendLayout();
             // 
             // btnBillManagement
             // 
-            btnBillManagement.Image = (Image)resources.GetObject("btnBillManagement.Image");
-            btnBillManagement.ImageTransparentColor = Color.Magenta;
-            btnBillManagement.Name = "btnBillManagement";
-            btnBillManagement.Size = new Size(146, 39);
-            btnBillManagement.Text = "Bill Management";
-            btnBillManagement.Click += btnBillManagement_Click;
+            this.btnBillManagement.Image = ((System.Drawing.Image)(resources.GetObject("btnBillManagement.Image")));
+            this.btnBillManagement.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnBillManagement.Name = "btnBillManagement";
+            this.btnBillManagement.Size = new System.Drawing.Size(146, 31);
+            this.btnBillManagement.Text = "Bill Management";
+            this.btnBillManagement.Click += new System.EventHandler(this.btnBillManagement_Click);
             // 
             // toolStripSeparator1
             // 
-            toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(6, 42);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 34);
             // 
             // btnSKUManagement
             // 
-            btnSKUManagement.BackColor = SystemColors.ActiveCaption;
-            btnSKUManagement.Image = (Image)resources.GetObject("btnSKUManagement.Image");
-            btnSKUManagement.ImageTransparentColor = Color.Magenta;
-            btnSKUManagement.Margin = new Padding(1, 1, 0, 2);
-            btnSKUManagement.Name = "btnSKUManagement";
-            btnSKUManagement.Size = new Size(176, 39);
-            btnSKUManagement.Text = "Product Management";
-            btnSKUManagement.Click += btnSKUManagement_Click;
+            this.btnSKUManagement.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSKUManagement.Image = ((System.Drawing.Image)(resources.GetObject("btnSKUManagement.Image")));
+            this.btnSKUManagement.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnSKUManagement.Margin = new System.Windows.Forms.Padding(1, 1, 0, 2);
+            this.btnSKUManagement.Name = "btnSKUManagement";
+            this.btnSKUManagement.Size = new System.Drawing.Size(176, 31);
+            this.btnSKUManagement.Text = "Product Management";
+            this.btnSKUManagement.Click += new System.EventHandler(this.btnSKUManagement_Click);
             // 
             // rbnMain
             // 
-            rbnMain.AutoSize = false;
-            rbnMain.BackColor = SystemColors.ActiveCaption;
-            rbnMain.ImageScalingSize = new Size(20, 20);
-            rbnMain.Items.AddRange(new ToolStripItem[] { btnBillManagement, toolStripSeparator1, btnSKUManagement });
-            rbnMain.Location = new Point(0, 0);
-            rbnMain.Name = "rbnMain";
-            rbnMain.Size = new Size(800, 42);
-            rbnMain.TabIndex = 0;
-            rbnMain.Text = "toolStrip1";
+            this.rbnMain.AutoSize = false;
+            this.rbnMain.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.rbnMain.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.rbnMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.btnBillManagement,
+            this.toolStripSeparator1,
+            this.btnSKUManagement,
+            this.btnUserManagement});
+            this.rbnMain.Location = new System.Drawing.Point(0, 0);
+            this.rbnMain.Name = "rbnMain";
+            this.rbnMain.Size = new System.Drawing.Size(800, 34);
+            this.rbnMain.TabIndex = 0;
+            this.rbnMain.Text = "toolStrip1";
             // 
-            // tabPage1
+            // btnUserManagement
             // 
-            tabPage1.Location = new Point(4, 29);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(792, 374);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "tabPage1";
-            tabPage1.UseVisualStyleBackColor = true;
+            this.btnUserManagement.Image = ((System.Drawing.Image)(resources.GetObject("btnUserManagement.Image")));
+            this.btnUserManagement.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnUserManagement.Name = "btnUserManagement";
+            this.btnUserManagement.Size = new System.Drawing.Size(154, 31);
+            this.btnUserManagement.Text = "User Management";
+            this.btnUserManagement.Click += new System.EventHandler(this.btnUserManagement_Click);
             // 
-            // tabControl1
+            // pnlMain
             // 
-            tabControl1.Controls.Add(tabPage1);
-            tabControl1.Location = new Point(0, 45);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(800, 407);
-            tabControl1.TabIndex = 1;
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMain.Location = new System.Drawing.Point(0, 34);
+            this.pnlMain.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(800, 326);
+            this.pnlMain.TabIndex = 1;
             // 
             // frmMain
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(tabControl1);
-            Controls.Add(rbnMain);
-            MdiChildrenMinimizedAnchorBottom = false;
-            Name = "frmMain";
-            Text = "Paragon POS System";
-            WindowState = FormWindowState.Maximized;
-            FormClosed += Onclosed;
-            Load += Main_Load;
-            rbnMain.ResumeLayout(false);
-            rbnMain.PerformLayout();
-            tabControl1.ResumeLayout(false);
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 360);
+            this.Controls.Add(this.pnlMain);
+            this.Controls.Add(this.rbnMain);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "frmMain";
+            this.Text = "Paragon POS System";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.rbnMain.ResumeLayout(false);
+            this.rbnMain.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
-
-        private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private ToolStripButton btnBillManagement;
         private ToolStripSeparator toolStripSeparator1;
         private ToolStripButton btnSKUManagement;
@@ -127,7 +128,7 @@
         private StatusStrip statusStrip1;
         private ToolStripStatusLabel toolStripStatusLabel1;
         private ToolStripSplitButton toolStripSplitButton1;
-        private TabPage tabPage1;
-        private TabControl tabControl1;
+        private Panel pnlMain;
+        private ToolStripButton btnUserManagement;
     }
 }

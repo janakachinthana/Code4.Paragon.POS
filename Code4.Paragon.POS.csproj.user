@@ -1,20 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_LastSelectedProfileId>E:\My Projects\Code4.Paragon.POS\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory />
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Update="Client\Admin\frmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Client\frmMain.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Client\Master\frmSKU.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Client\Transaction\frmBill.cs">
-      <SubType>Form</SubType>
-    </Compile>
-  </ItemGroup>
 </Project>
