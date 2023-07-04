@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Assets/SQLEXPR_x64_ENU
+/Assets/SQLEXPR_x64_ENU.exe
+/bin/Debug/Assets/SQLEXPR_x64_ENU/x64/Setup/sql_engine_core_inst_msi/PFiles/SqlServr/MSSQL.X/MSSQL/Binn/Template
+/bin/Debug/Assets/SQLEXPR_x64_ENU/x64/Setup/sql_engine_core_inst_msi/PFiles/SqlServr/MSSQL.X/MSSQL/Binn
